@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-import avatar from './avatar.gif';
+import avatar from '../image/avatar.gif';
 
 class Landing extends Component {
     render() {
@@ -11,8 +11,20 @@ class Landing extends Component {
                         <img
                             src={avatar}
                             alt="avatar"
-                            className="avatar"
+                            className="avatar-img"
                         />
+                        <div className="banner-text">
+                            <h1>IoT and electronics engineer</h1>
+
+                            <hr />
+                            <p>HTML/CSS | Javascript | React | React Native | Express | C/C++ |</p>
+                            <div className="social-links">
+                                {/* Github*/}
+                                <a href="https://github.com/choopk" rel="noopener noreferrer" target="_blank">
+                                    <i className="fa fa-github-square" aria-hidden="true" />
+                                </a>
+                            </div>
+                        </div>
                     </Cell>
                 </Grid>
             </div>
