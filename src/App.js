@@ -7,22 +7,24 @@ import { Link } from 'react-router-dom';
 class App extends Component {
   render() {
     return (
-      <div className="demo-big-content">
+      <div className="landing-page">
         <Layout>
-        <Header className="header-color" title="Title" scroll>
+        <Header className="header-color" title="My portfolio" scroll>
             <Navigation>
               <Link to="/resume">Resume</Link>
-              <Link to="/aboutme">About Me</Link>
               <Link to="/projects">Projects</Link>
-              <Link to="/contact">Link</Link>
+              <Link to="/contact">Contact</Link>
+              <Link to="/"><i className="fa fa-home" aria-hidden="true" /></Link>
             </Navigation>
           </Header>
-          <Drawer title="Title">
+          <Drawer title="My portfolio">
             <Navigation>
-              <Link to="/">Link</Link>
-              <Link to="/">Link</Link>
-              <Link to="/">Link</Link>
-              <Link to="/">Link</Link>
+              <Link to="/"><i className="fa fa-home" aria-hidden="true" /></Link>
+              <Link to="/resume">Resume</Link>
+              <Link to="/projects">Projects</Link>
+              <Link to="/contact">Contact</Link>
+             
+            
             </Navigation>
           </Drawer>
           <Content>

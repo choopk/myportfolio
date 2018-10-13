@@ -14,7 +14,7 @@ class Landing extends Component {
                             className="avatar-img"
                         />
                         <div className="banner-text">
-                            <h1>IoT and electronics engineer</h1>
+                            <h1>Programmer and electronics engineer</h1>
 
                             <hr />
                             <p>HTML/CSS | Javascript | React | React Native | Express | C/C++ |</p>
