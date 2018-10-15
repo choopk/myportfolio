@@ -105,4 +105,17 @@
     margin-left: 180px;
  }
 
- 
+ .resume-right-col {
+    background: #27221F;
+    padding:2em;
+    color: white;
+ }
+
+ .avatar-resume{
+  width: 200px;
+  height:200px;
+ }
+
+ .projects-grid {
+   display:flex
+ }
