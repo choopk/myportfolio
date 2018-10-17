@@ -20,6 +20,7 @@
 .landing-page i{
   font-size:30px;
 }
+
 .avatar-img {
   height: 250px;
   padding-top: 5em;
@@ -81,7 +82,7 @@
   background: white;
   color: black;
   margin-bottom: 20px;
-  
+
 }
 
 .contact-grid h2 {
@@ -100,15 +101,15 @@
  }
  
  .contact-list i{
-    font-size:66px;
-    padding-right:5rem;
-    margin-left: 180px;
+  font-size:66px;
+  padding-right:5rem;
+  margin-left: 180px;
  }
 
  .resume-right-col {
-    background: #27221F;
-    padding:2em;
-    color: white;
+  background: #27221F;
+  padding:2em;
+  color: white;
  }
 
  .avatar-resume{
@@ -116,6 +117,38 @@
   height:200px;
  }
 
- .projects-grid {
-   display:flex
- }
+.subjects-grid {
+  display:flex;
+  justify-content:space-evenly;
+}
+
+.about-me {
+  font-family: 'Roboto',sans-serif;
+  font-size: 20px
+}
+
+.content{
+  font-family: 'Roboto',sans-serif;
+  font-size: 17px
+}
+
+.alexa-video {
+  display:flex;
+  justify-content:center;
+}
+
+.esp32-powermeter {
+ margin-left: 500px
+}
+
+.ir-blaster {
+  margin-left: 300px
+}
+
+.smart-home {
+  font-size: 20px;
+}
+
+.smart-home-content {
+  font-size: 20px;
+}

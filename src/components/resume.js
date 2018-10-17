@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import avatar from '../image/avatar.gif';
-import Education from './education';
-import Experience from './experience';
+import EducationInti from './educationInti';
+import EducationKdu from './educationKDU';
+import Internship from './experienceInternship';
+import FullTime from './experienceFull';
 import Skills from './skills';
+import Inti from '../image/inti.png';
+import Kdu from '../image/kdu.png';
 
 class Resume extends Component {
     render() {
@@ -20,61 +24,64 @@ class Resume extends Component {
                         <h2 style={{ paddingTop: '0.5em' }}>Choo Jian Cheng</h2>
                         <h4 style={{ color: 'grey' }}>Programmer and Engineer</h4>
                         <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
-                        <p>
-                            sdfdsfdsfsdfjierjoiwerjwoeij
-                            ofiwejurowerweirwer
-                            woerweorwre
-                    </p>
+                        <p className="about-me">
+                            I am an electrical and electronics and engineer and also a self taught web developer. I have experience developing on embedded systems like nrf51822, esp32, esp8266 and raspberry pi. Besides dabbling in the realm of electronics I also have
+                            some interest in web development, with an emphasis on Frontend web development and mobile using React and React Native. Whereby I have experience
+                            building CRUD applications, RESTFUL APIs using Node.js and express.
+                       </p>
                         <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }}></hr>
-                        <h5>Address</h5>
-                        <p>36, Lorong Permai 3, Taman Bukit Gambir, Gelugor, 11700 Pulau Pinang.</p>
-                        <h5>Phone</h5>
-                        <p>019-8501480</p>
-                        <h5>Email</h5>
-
+                        <h2>Address</h2>
+                        <p className="about-me">36, Lorong Permai 3, Taman Bukit Gambir, Gelugor, 11700 Pulau Pinang.</p>
+                        <h2>Phone</h2>
+                        <p className="about-me"> 019-8501480</p>
+                        <h2>Email</h2>
+                        <p className="about-me">choopk1994@gmail.com</p>
                     </Cell>
                     <Cell className="resume-right-col" col={8}>
                         <h2>Education</h2>
-                        <Education
+                        <EducationInti
                             startYear={2012}
                             endYear={2013}
-                            schoolName="Inti College"
-                            schoolDescription="High"
+                            schoolLogo={Inti}
+                            degreeTaken="High School Certificate"
                         />
-                        <Education
+                        <EducationKdu
                             startYear={2007}
                             endYear={2009}
-                            schoolName="KDU University College"
-                            degreeTaken="Higher School Certificate"
+                            schoolLogo={Kdu}
+                            degreeTaken="Bachelor of Engineering (Hons) in Electrical & Electronic Engineering (First Class)"
                         />
                         <hr style={{ borderTop: '3px solid #e22947' }}></hr>
                         <h2>Experience</h2>
-                        <Experience
+                        <Internship
+                            startYear={2016}
+                            endYear={2017}
+                            jobName="Internship at Tanand Technology"
+                        />
+                        <FullTime
                             startYear={2017}
                             endYear={2018}
-                            jobName="First Job"
-                            jobDescription="sdfssffdsfsfsdfdsf
-                            sdfdsfsdfsdfsdsfd"
+                            jobName="Tanand Technology"
                         />
                         <hr style={{ borderTop: '3px solid #e22947' }} />
                         <h2>Skills</h2>
-                        <Skills 
+                        <Skills
                             skill="javascript"
                             progress={70}
                         />
-                        <Skills 
+                        <Skills
                             skill="HTML/CSS"
                             progress={40}
                         />
-                        <Skills 
+                        <Skills
                             skill="NodeJS"
                             progress={40}
                         />
-                        <Skills 
+                        <Skills
                             skill="React"
                             progress={50}
                         />
-                            <Skills 
+                        <Skills
                             skill="C/C++"
                             progress={40}
                         />

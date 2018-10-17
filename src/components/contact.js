@@ -14,7 +14,7 @@ class Contact extends Component {
                             alt="photos"
                             style={{ height: '250px', width:'200px', borderRadius: '25px'}}
                         />
-                        <p style={{ width: '75%', margin: 'auto', paddingTop: "1em" }}> qweqweqeqewqeqwqwe</p>
+                        <p style={{ width: '75%', margin: 'auto', paddingTop: "1em" }}></p>
                     </Cell>
 
                     <Cell col={6}>

@@ -18,13 +18,17 @@ class Landing extends Component {
 
                             <hr />
                             <p>HTML/CSS | Javascript | React | React Native | Express | C/C++ |</p>
+                            <p>Code portfolio below click on icon</p>
                             <div className="social-links">
                                 {/* Github*/}
                                 <a href="https://github.com/choopk" rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-github-square" aria-hidden="true" />
                                 </a>
+                    
                             </div>
+                         
                         </div>
+                        
                     </Cell>
                 </Grid>
             </div>
