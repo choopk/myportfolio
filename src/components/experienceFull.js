@@ -19,9 +19,9 @@ class ExperienceFull extends Component {
                         <p />
                         <li>Integrate hardware and software solutions. For example, setting up and integrating company partner's hardware with company's own software solution. </li>
                         <p />
-                        <li>Wrote firmware for company’s in house developed Infrared controller for their building management system using Arduino IDE.</li>
+                        <li>Wrote software for company’s in house developed Infrared controller for their building management system using Arduino IDE.</li>
                         <p />
-                        <li>Wrote firmware for company’s in house developed controller to query Modbus devices for their energy management system using Ardiono IDE.</li>
+                        <li>Wrote software for company’s in house developed controller to query Modbus devices for their energy management system using Ardiono IDE.</li>
                     </ul>
 
                 </Cell>

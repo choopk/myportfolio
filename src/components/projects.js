@@ -25,11 +25,11 @@ class Projects extends Component {
                                 This is a react native project which allows the user to check energy statistics, office activity, office temperature, control lighting and air conditioning.
                                 Some of the tools used in this project.
                                 <ul className="smart-home-content">
-                                    <li>create-react-native-app cli</li>
-                                    <li>react-navigation</li>
-                                    <li>react native firebase</li>
-                                    <li>axios</li>
-                                    <li>express server</li>
+                                    <li>Create-react-native-app cli</li>
+                                    <li>React-navigation</li>
+                                    <li>React native firebase</li>
+                                    <li>Axios</li>
+                                    <li>Express server</li>
                                 </ul>
 
                             </div>
@@ -51,10 +51,10 @@ class Projects extends Component {
                             This is a Arduino project where the esp8266 acts as the heart of the ir controller module. The sample code for this project can be
                             found through the icon link in the home page. It functions as follows:
                              <ul className="smart-home-content">
-                                <li>read current through CT clamps do determine Air conditioner is running or not</li>
-                                <li>turn AC on/off through an IR blaster. Commands are issued using mqtt pub/sub messages</li>
-                                <li>react native firebase</li>
-                                <li>has a soft ap to spawn a config page to configure wifi credentials and mqtt broker settings</li>
+                                <li>Read current through CT clamps do determine Air conditioner is running or not</li>
+                                <li>Turn AC on/off through an IR blaster. Commands are issued using mqtt pub/sub messages</li>
+                                <li>React native firebase</li>
+                                <li>Has a soft ap to spawn a config page to configure wifi credentials and mqtt broker settings</li>
                             </ul>
 
                         </div>
@@ -76,7 +76,7 @@ class Projects extends Component {
                             <div className="smart-home-content">
                                 This is voice service control using Alexa to turn on/off lights and air conditioning units. Some of the tools used in this project
                                 <ul className="smart-home-content">
-                                    <li>node-red acting as an end pointfor alex voice services and running application logic </li>
+                                    <li>Node-red acting as an end point for alex voice services and running application logic </li>
                                     <li>IR controller</li>
                                 </ul>
                             </div>
@@ -93,13 +93,13 @@ class Projects extends Component {
                     <p/>
                     
                     This is an Arduino project which uses esp32 as the main controller to query 
-                    data from the power meters using modbus RTU protocol.   
-                    Some of the tools used in this project. The code for this project  can be found through the icon link in the home page:
+                    data from the power meters using modbus RTU protocol. The code for this project can be found through the icon link in the home page.   
+                    Some of the tools used in this project include: 
 
                       <ul className="smart-home-content">
                                 <li>esp32</li>
                                 <li>5v max485 TTL module</li>
-                                <li>Thingsboard as the IoT platform to display the analytics and run the application logic</li>
+                                <li>Thingsboard as the IoT platform to display the analytics and perform application logic</li>
                               
                      </ul>
                 </div>

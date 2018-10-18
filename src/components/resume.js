@@ -25,9 +25,9 @@ class Resume extends Component {
                         <h4 style={{ color: 'grey' }}>Programmer and Engineer</h4>
                         <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
                         <p className="about-me">
-                            I am an electrical and electronics and engineer and also a self taught web developer. I have experience developing on embedded systems like nrf51822, esp32, esp8266 and raspberry pi. Besides dabbling in the realm of electronics I also have
-                            some interest in web development, with an emphasis on Frontend web development and mobile using React and React Native. Whereby I have experience
-                            building CRUD applications, RESTFUL APIs using Node.js and express.
+                            I am an electrical and electronics engineer and also a self taught web developer. I have experience developing software for embedded systems like nrf51822, esp32, esp8266 and raspberry pi. Besides dabbling in the realm of electronics, I also have
+                            a keen interest in web development with an emphasis on Frontend web development and mobile using React and React Native. In addition to that, I also have knowledge
+                            building simple CRUD applications, RESTFUL APIs using Node.js and express.
                        </p>
                         <hr style={{ borderTop: '3px solid #833fb2', width: '50%' }}></hr>
                         <h2>Address</h2>
@@ -46,8 +46,8 @@ class Resume extends Component {
                             degreeTaken="High School Certificate"
                         />
                         <EducationKdu
-                            startYear={2007}
-                            endYear={2009}
+                            startYear={2013}
+                            endYear={2017}
                             schoolLogo={Kdu}
                             degreeTaken="Bachelor of Engineering (Hons) in Electrical & Electronic Engineering (First Class)"
                         />

@@ -17,7 +17,7 @@ class ExperienceInternship extends Component {
                         <p />
                         <li>Learned how to query and control modbus devices</li>
                         <p />
-                        <li>designed and deployed 8 RS-485 Remote I/O Modules at Paddy Proccessing Factory(PLS marketing) to tap paddy dryer status whether it is on or off for the company's paddy drying automation system.</li>
+                        <li>Designed and deployed 8 RS-485 Remote I/O Modules at Paddy Proccessing Factory(PLS marketing) to tap paddy dryer status whether it is on or off for the company's paddy drying automation system.</li>
                     </ul>
 
                 </Cell>
